@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+# export HACKER_PRIVATE_KEY = $(python brute_force.py)
+export HACKER_PRIVATE_KEY=c489e0522e2ae1a8a14ea87eb054b65d1bd192918f889608d8896de441286570
+forge script solution.s.sol --fork-url $FORK_URL --broadcast
