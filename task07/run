@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+# export FORK_URL=https://sepolia.infura.io/v3/35f8622093174c41809ade906bd24249
+forge script --fork-url $FORK_URL solution.s.sol -vvv --evm-version shanghai --broadcast

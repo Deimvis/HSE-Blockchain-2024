@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+forge script solution.s.sol --fork-url $FORK_URL --broadcast
